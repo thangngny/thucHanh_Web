@@ -1,0 +1,92 @@
+.admin-link {
+  font-size: 24px;
+  font-weight: bold;
+}
+.Menu a {
+  margin: 0 10px;
+  color: black;
+}
+.Menu a:hover {
+  color: blue;
+}
+.Menu {
+  display: flex;
+  gap: 20px;
+  background-color: #f8f9fa;
+  padding: 15px 10px; /* Điều chỉnh padding */
+  border-radius: 5px;
+}
+.theLoai-link {
+  font-weight: bold;
+}
+.btn-add {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px 30px; /* Điều chỉnh margin */
+  font-size: 16px; /* Điều chỉnh kích thước font */
+}
+.btn-add:hover {
+  background-color: #218838; /* Thêm hiệu ứng khi hover */
+}
+table {
+  width: 100%;
+  border-collapse: collapse; /* Gộp các viền ô lại */
+  margin: 20px auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd; /* Đường viền bảng */
+}
+
+th,
+td {
+  padding: 15px; /* Tăng padding trong các ô */
+  text-align: center; /* Căn giữa văn bản */
+}
+
+th {
+  background-color: #f2f2f2; /* Màu nền của tiêu đề */
+  font-size: 18px; /* Điều chỉnh kích thước font của tiêu đề cột */
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* Màu nền của các hàng chẵn */
+}
+
+tr:hover {
+  background-color: #f1f1f1; /* Thêm hiệu ứng hover cho các hàng */
+}
+.icon {
+  color: #007bff;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.icon:hover {
+  color: #0056b3;
+}
+.tr-TieuDe {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px 20px;
+  color: #333; /* Màu chữ tiêu đề bảng */
+}
+.table-margin {
+  margin-bottom: 200px;
+}
+.footer {
+  display: flex; /* Sử dụng Flexbox */
+  justify-content: center; /* Căn giữa ngang */
+  align-items: center; /* Căn giữa dọc */
+  flex-direction: column; /* Sắp xếp nội dung theo cột */
+  padding: 20px; /* Thêm khoảng cách padding */
+  background-color: #f8f9fa; /* Màu nền của footer */
+  margin-top: 30px;
+}
